@@ -26,18 +26,22 @@ nav a {
     color: black;
     font-weight: bold;
 }
-.hero {
+.parte1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    background: #f5f5f5;
+    padding: 30px;
+    background: #ffffff;
 }
-.hero .image img {
+
+.parte1 img {
     width: 800px;
     height: auto;
+    border-radius: 18px;
+    ;
+    
 }
-.collection, .showroom, .boutique, .speed-limit, footer {
+.coleccion, .showroom, .tienda, .final, footer {
     padding: 50px 20px;
     background: #fff;
 }
@@ -50,10 +54,13 @@ nav a {
     width: 250px;
     height: 200px;
     object-fit: cover;
+    border-radius: 15px;
 }
-.showroom img, .speed-limit img {
+.showroom img {
     width: 600px;
     height: auto;
+    border-radius: 15px;
+    
 }
 button {
     background: none;
@@ -66,3 +73,23 @@ footer {
     border-top: 1px solid #000;
     padding: 20px;
     background: #fff;}
+
+.titulo {
+    float: left;
+    font-size: 90px;
+    text-align: left;
+}
+.texto {
+    float: right ;
+    display: flex;
+}
+.final button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+
+}
+.final img{
+    border-radius: 15px;
+}
